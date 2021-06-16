@@ -1,0 +1,6 @@
+regisztráció
+be/kijelentkezés
+cikk megtekintése
+új cikk létrehozása/törlése
+meglévő cikk be/kiszivecskézése
+jelszó megváltoztatása
