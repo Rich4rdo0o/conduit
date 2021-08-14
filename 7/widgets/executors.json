@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://Rich4rdo0o.github.io/conduit",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #1131350089",
+  "buildUrl" : "https://github.com/Rich4rdo0o/conduit/actions/runs/1131350089",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://Rich4rdo0o.github.io/conduit/7/"
+} ]
