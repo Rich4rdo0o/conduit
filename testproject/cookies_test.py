@@ -14,7 +14,7 @@ def test_cookies():
 
     # TC04 - cookies
     driver.get(url)
-    time.sleep(4)
+    time.sleep(60)
     divs = driver.find_elements_by_xpath('//div')
     number_divs = (len(divs))
     accept = driver.find_element_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]/div')
