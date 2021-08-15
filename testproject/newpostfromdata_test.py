@@ -22,7 +22,7 @@ def test_new_post_from_data():
     pw = 'Abcd123$'
     title = 'test post'
     about = 'life'
-    with open('testproject/send_up_test.txt') as f:
+    with open('/home/runner/work/conduit/conduit/testproject/send_up_test.txt') as f:
         sending = f.read()
 
     # TC10 - New post from data
