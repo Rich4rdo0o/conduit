@@ -57,6 +57,8 @@ def test_new_post_from_data():
     time.sleep(3)
     # checking the sent data
     sent = driver.find_element_by_xpath('//p')
+    print(sent.text)
+    print(sneding * x)
     assert (sending * x) == sent.text
     logout = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
     logout.click()
