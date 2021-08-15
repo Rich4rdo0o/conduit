@@ -49,14 +49,15 @@ def test_new_post_from_data():
     a_title.send_keys(title)
     a_about.send_keys(about)
     # cycle for sending serial data ("Ismételt és sorozatos adatbevitel adatforrásból")
-    for _ in range(2):
+    x = 2
+    for i in range(x):
         a_text.send_keys(sending)
         time.sleep(2)
     publish_btn.click()
     time.sleep(3)
     # checking the sent data
     sent = driver.find_element_by_xpath('//p')
-    assert sending == sent.text
+    assert (sending * x) == sent.text
     logout = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
     logout.click()
     time.sleep(1)
