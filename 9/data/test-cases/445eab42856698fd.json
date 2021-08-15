@@ -1,0 +1,73 @@
+{
+  "uid" : "445eab42856698fd",
+  "name" : "test_cookies",
+  "fullName" : "testproject.cookies_test#test_cookies",
+  "historyId" : "75bd1bc8658c9d34c7771c1e568ad05a",
+  "time" : {
+    "start" : 1629017172032,
+    "stop" : 1629017181252,
+    "duration" : 9220
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "cookies_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "3701-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.cookies_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1234bd6bd9dbad49",
+        "reportUrl" : "https://Rich4rdo0o.github.io/conduit/8//#testresult/1234bd6bd9dbad49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629016641512,
+          "stop" : 1629016650638,
+          "duration" : 9126
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "445eab42856698fd.json",
+  "parameterValues" : [ ]
+}
