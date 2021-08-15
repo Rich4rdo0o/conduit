@@ -1,15 +1,16 @@
+from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-opt = Options()
-opt.headless = True
+options = webdriver.ChromeOptions()
+options.add_argument('--headless')
+options.add_argument('--disable-gpu')
+
+driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 
 
 def test_new_post_from_data():
-    # In order for ChromeDriverManager to work you must pip install it in your own environment.
-    driver = webdriver.Chrome(ChromeDriverManager().install())
     url = "http://localhost:1667/#/"
 
     driver.get(url)
