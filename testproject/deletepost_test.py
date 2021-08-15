@@ -17,11 +17,8 @@ def test_delete_post():
     time.sleep(3)
 
     # test data
-    name = 'testuser1'
     email = 'testuser1@example.com'
     pw = 'Abcd123$'
-    old_post_title = 'test post'
-    # run after TC06 to have the test post
     # TC07 - Delete post
     # login
     sign_in = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[2]/a')
@@ -34,12 +31,11 @@ def test_delete_post():
     pw_field.send_keys(pw)
     sign_in_btn.click()
     time.sleep(4)
-    old_post_numbers1 = len(driver.find_elements_by_xpath('//h1[text()="test post"]'))
-    # print(old_post_numbers1)
-    old_post = driver.find_element_by_xpath('//h1[text()="test post"]')
+    old_post_numbers1 = len(driver.find_elements_by_xpath('//div//a//p'))
+    old_post = driver.find_element_by_xpath('//div//a//p')
     old_post.click()
     time.sleep(4)
-    delete_post = driver.find_element_by_class_name('ion-trash-a')
+    delete_post = driver.find_element_by_xpath('//div//span//button')
     delete_post.click()
     time.sleep(4)
     # checking the error message, have to write a bug ticket about it
@@ -52,8 +48,7 @@ def test_delete_post():
     home_page.click()
     time.sleep(3)
     # checking whether the post was deleted or not
-    old_post_numbers2 = len(driver.find_elements_by_xpath('//h1[text()="test post"]'))
-    # print(old_post_numbers2)
+    old_post_numbers2 = len(driver.find_elements_by_xpath('//div//a//p'))
     # checking the number of posts with the given title
     # if there is -1 that means the correct post was deleted
     assert (old_post_numbers1 - 1) == old_post_numbers2
