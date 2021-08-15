@@ -17,8 +17,8 @@ def test_new_post_from_data():
     time.sleep(3)
 
     # test data
-    name = 'testuser1'
-    email = 'testuser1@example.com'
+    name = 'testuser3'
+    email = 'testuser3@example.com'
     pw = 'Abcd123$'
     title = 'test post'
     about = 'life'
@@ -56,7 +56,7 @@ def test_new_post_from_data():
     publish_btn.click()
     time.sleep(3)
     # checking the sent data
-    sent = driver.find_element_by_xpath('//p')
+    sent = driver.find_element_by_xpath('//div//p')
     assert (sending * x) == sent.text
     logout = driver.find_element_by_xpath('//*[@id="app"]/nav/div/ul/li[5]/a')
     logout.click()
