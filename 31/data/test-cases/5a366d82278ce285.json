@@ -1,0 +1,53 @@
+{
+  "uid" : "5a366d82278ce285",
+  "name" : "test_new_post_from_data",
+  "fullName" : "testproject.anewpostfromdata_test#test_new_post_from_data",
+  "historyId" : "93fbf5ed981d7dc55d373268def7ab91",
+  "time" : {
+    "start" : 1629106597514,
+    "stop" : 1629106619869,
+    "duration" : 22355
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "anewpostfromdata_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "3675-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.anewpostfromdata_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a366d82278ce285.json",
+  "parameterValues" : [ ]
+}

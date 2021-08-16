@@ -1,0 +1,101 @@
+[ {
+  "uid" : "dede0e504c188da7",
+  "name" : "test_username_change",
+  "time" : {
+    "start" : 1629106767286,
+    "stop" : 1629106793421,
+    "duration" : 26135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c49f5919dd55209f",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1629106654449,
+    "stop" : 1629106668294,
+    "duration" : 13845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0ad51c20de3264d",
+  "name" : "test_pages",
+  "time" : {
+    "start" : 1629106705225,
+    "stop" : 1629106723156,
+    "duration" : 17931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a366d82278ce285",
+  "name" : "test_new_post_from_data",
+  "time" : {
+    "start" : 1629106597514,
+    "stop" : 1629106619869,
+    "duration" : 22355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "158b09d25c2d4a21",
+  "name" : "test_new_post",
+  "time" : {
+    "start" : 1629106682073,
+    "stop" : 1629106705223,
+    "duration" : 23150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "678044291a659472",
+  "name" : "test_save_data",
+  "time" : {
+    "start" : 1629106752354,
+    "stop" : 1629106767284,
+    "duration" : 14930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20f6ae33c97b1fad",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629106668296,
+    "stop" : 1629106682071,
+    "duration" : 13775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dc5bc9f560b02da",
+  "name" : "test_delete_post",
+  "time" : {
+    "start" : 1629106628401,
+    "stop" : 1629106654447,
+    "duration" : 26046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a790ab2c4dbd4f71",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1629106723159,
+    "stop" : 1629106752352,
+    "duration" : 29193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "882cf89f522928d6",
+  "name" : "test_cookies",
+  "time" : {
+    "start" : 1629106619872,
+    "stop" : 1629106628399,
+    "duration" : 8527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
