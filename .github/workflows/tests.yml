@@ -1,4 +1,4 @@
-name: Pytest conduit
+name: Post Github Actions
 
 on:
   push:
@@ -18,14 +18,14 @@ jobs:
     - name: Builds and Starts
       run: |
         docker-compose up -d
-    - name: Sleep for 60 seconds
+    - name: Sleep for 45 seconds
       run: sleep 60s
       shell: bash
 
-    - name: Set up Python 3.9.5
+    - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9.5
+        python-version: 3.9
 
     - name: Install dependencies
       run: |
@@ -36,7 +36,7 @@ jobs:
         sudo apt install google-chrome-stable
     - name: Test with pytest
       run: |
-        pytest --alluredir=allure_results
+        pytest --alluredir=allure-results
     - name: Collect docker logs
       uses: jwalton/gh-docker-logs@v1
       with:
@@ -61,8 +61,8 @@ jobs:
       if: always()
       with:
         allure_results: allure-results
-        allure_history: allure-history
-        keep_reports: 20
+        allure-history: allure-history
+        keep_reports: 920
 
     - name: Deploy Report to GitHub Pages
       if: always()
@@ -71,4 +71,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
-
+        
