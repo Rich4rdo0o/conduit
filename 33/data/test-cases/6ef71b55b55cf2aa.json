@@ -1,0 +1,53 @@
+{
+  "uid" : "6ef71b55b55cf2aa",
+  "name" : "test_username_change",
+  "fullName" : "testproject.usernamechange_test#test_username_change",
+  "historyId" : "eab1ae21d8cd54fb02224dc4a9fdcf60",
+  "time" : {
+    "start" : 1629108507017,
+    "stop" : 1629108533148,
+    "duration" : 26131
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "usernamechange_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-93"
+  }, {
+    "name" : "thread",
+    "value" : "3674-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.usernamechange_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ef71b55b55cf2aa.json",
+  "parameterValues" : [ ]
+}

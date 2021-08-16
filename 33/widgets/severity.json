@@ -1,0 +1,101 @@
+[ {
+  "uid" : "e8d7e9cce5499ad2",
+  "name" : "test_save_data",
+  "time" : {
+    "start" : 1629108492118,
+    "stop" : 1629108507015,
+    "duration" : 14897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d804b6d45bd9fb90",
+  "name" : "test_new_post",
+  "time" : {
+    "start" : 1629108421816,
+    "stop" : 1629108445026,
+    "duration" : 23210
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4ebaa0771e23f82",
+  "name" : "test_cookies",
+  "time" : {
+    "start" : 1629108359726,
+    "stop" : 1629108368233,
+    "duration" : 8507
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ef71b55b55cf2aa",
+  "name" : "test_username_change",
+  "time" : {
+    "start" : 1629108507017,
+    "stop" : 1629108533148,
+    "duration" : 26131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99068c48333b1cee",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1629108462908,
+    "stop" : 1629108492116,
+    "duration" : 29208
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "303969bb2af1aa17",
+  "name" : "test_delete_post",
+  "time" : {
+    "start" : 1629108368235,
+    "stop" : 1629108394263,
+    "duration" : 26028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a37a760006d0b733",
+  "name" : "test_new_post_from_data",
+  "time" : {
+    "start" : 1629108337286,
+    "stop" : 1629108359723,
+    "duration" : 22437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "330f6f2a69505262",
+  "name" : "test_pages",
+  "time" : {
+    "start" : 1629108445028,
+    "stop" : 1629108462906,
+    "duration" : 17878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b141da5a594b62a5",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1629108394265,
+    "stop" : 1629108408039,
+    "duration" : 13774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cecc3bcfb3e7169",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1629108408041,
+    "stop" : 1629108421814,
+    "duration" : 13773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
