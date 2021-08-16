@@ -22,10 +22,10 @@ jobs:
       run: sleep 60s
       shell: bash
 
-    - name: Set up Python 3.9
+    - name: Set up Python 3.9.5
       uses: actions/setup-python@v2
       with:
-        python-version: 3.9
+        python-version: 3.9.5
 
     - name: Install dependencies
       run: |
@@ -61,8 +61,8 @@ jobs:
       if: always()
       with:
         allure_results: allure-results
-        allure-history: allure-history
-        keep_reports: 920
+        allure_history: allure-history
+        keep_reports: 20
 
     - name: Deploy Report to GitHub Pages
       if: always()
