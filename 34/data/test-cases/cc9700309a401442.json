@@ -1,0 +1,73 @@
+{
+  "uid" : "cc9700309a401442",
+  "name" : "test_new_post",
+  "fullName" : "testproject.newpost_test#test_new_post",
+  "historyId" : "74c8317d1b8b0f49c548433c27b0ece4",
+  "time" : {
+    "start" : 1631876508146,
+    "stop" : 1631876531313,
+    "duration" : 23167
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "newpost_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-836"
+  }, {
+    "name" : "thread",
+    "value" : "4299-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.newpost_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d804b6d45bd9fb90",
+        "reportUrl" : "https://Rich4rdo0o.github.io/conduit/33//#testresult/d804b6d45bd9fb90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629108421816,
+          "stop" : 1629108445026,
+          "duration" : 23210
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cc9700309a401442.json",
+  "parameterValues" : [ ]
+}

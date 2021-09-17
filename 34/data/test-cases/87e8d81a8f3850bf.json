@@ -1,0 +1,73 @@
+{
+  "uid" : "87e8d81a8f3850bf",
+  "name" : "test_username_change",
+  "fullName" : "testproject.usernamechange_test#test_username_change",
+  "historyId" : "eab1ae21d8cd54fb02224dc4a9fdcf60",
+  "time" : {
+    "start" : 1631876593199,
+    "stop" : 1631876619270,
+    "duration" : 26071
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "usernamechange_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-836"
+  }, {
+    "name" : "thread",
+    "value" : "4299-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.usernamechange_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6ef71b55b55cf2aa",
+        "reportUrl" : "https://Rich4rdo0o.github.io/conduit/33//#testresult/6ef71b55b55cf2aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629108507017,
+          "stop" : 1629108533148,
+          "duration" : 26131
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "87e8d81a8f3850bf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "cc760823465e530b",
+  "name" : "test_save_data",
+  "fullName" : "testproject.savedata_test#test_save_data",
+  "historyId" : "e7d9fa2a2be27627094ec29c6fb29156",
+  "time" : {
+    "start" : 1631876578335,
+    "stop" : 1631876593197,
+    "duration" : 14862
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "savedata_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-836"
+  }, {
+    "name" : "thread",
+    "value" : "4299-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.savedata_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e8d7e9cce5499ad2",
+        "reportUrl" : "https://Rich4rdo0o.github.io/conduit/33//#testresult/e8d7e9cce5499ad2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629108492118,
+          "stop" : 1629108507015,
+          "duration" : 14897
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cc760823465e530b.json",
+  "parameterValues" : [ ]
+}
